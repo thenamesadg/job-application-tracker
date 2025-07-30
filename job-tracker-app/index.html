@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Job Application Tracker</title>
+  <link rel="stylesheet" href="styles.css"/>
+ 
+</head>
+<body>
+  <div class="container">
+    <button id="dark-mode-toggle">🌓 Toggle Dark Mode</button>
+    <h1>Job Application Tracker</h1>
+
+    <form id="job-form">
+      <input type="text" id="company" placeholder="Company Name" required/>
+      <input type="text" id="position" placeholder="Job Title" required/>
+      <select id="status" required>
+        <option value="" disabled selected>Status</option>
+        <option value="Applied">Applied</option>
+        <option value="Interview">Interview</option>
+        <option value="Offer">Offer</option>
+        <option value="Rejected">Rejected</option>
+      </select>
+      <input type="date" id="date" required />
+      <textarea id="notes" placeholder="Notes (optional)"></textarea>
+      <button type="submit">Add Job</button>
+    </form>
+
+    <select id="filter-status">
+      <option value="All">All</option>
+      <option value="Applied">Applied</option>
+      <option value="Interview">Interview</option>
+      <option value="Offer">Offer</option>
+      <option value="Rejected">Rejected</option>
+    </select>
+
+    <div id="job-list">
+      <!-- Jobs will be added here dynamically -->
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
