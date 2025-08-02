@@ -26,22 +26,22 @@ A clean, minimal job tracking web app that helps users stay on top of their job 
 ## 📸 Screenshots
 
 ### 🔷 Light Mode – Full Overview  
-![Overview](Screenshots/overview.png)
+![Overview](job-tracker-app/Screenshots/overview.png)
 
 ### ➕ Add Job Entry  
-![Add Job](Screenshots/add-job.png)
+![Add Job](job-tracker-app/Screenshots/add-job.png)
 
 ### 📋 Job List with Cards  
-![Job List](Screenshots/job-list.png)
+![Job List](job-tracker-app/Screenshots/job-list.png)
 
 ### 🗑 Delete Button  
-![Delete](Screenshots/delete-button.png)
+![Delete](job-tracker-app/Screenshots/delete-button.png)
 
 ### 🎯 Filter by Status  
-![Filter](Screenshots/filter.png)
+![Filter](job-tracker-app/Screenshots/filter.png)
 
 ### 🌑 Dark Mode View  
-![Dark Mode](Screenshots/darkmode.png)
+![Dark Mode](job-tracker-app/Screenshots/darkmode.png)
 
 ---
 
